@@ -17,7 +17,8 @@ Members:
 	- ...(More to come!)
 
 ## Dependencies
-* Python
+* Linux ≥ 2.6.13
+* Python ≥ 2.4 (including Python 3.x)
 * Bash
 * Gammu
 * An USB Huawei Dcom or GSM module 800l
@@ -68,5 +69,20 @@ echo "some message" | gammu --sendsms TEXT 07921XXXXXX
 ```bash
 git clone https://github.com/huyhoang8398/IOT-USTH
 cd IOT-USTH
-python internship.py
+python GSM.py
 ```
+
+## Pyinotify 
+### Install
+#### Get the current stable version from PyPI and install it with pip
+
+To install pip follow http://www.pip-installer.org/en/latest/installing.html
+```bash
+sudo pip install pyinotify
+```
+
+### Watch a directory
+
+Install pyinotify and run this command from a shell:
+
+    $ python -m pyinotify -v /my-dir-to-watch
