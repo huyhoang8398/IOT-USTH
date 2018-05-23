@@ -1,6 +1,6 @@
-#IOT USTH
+# IOT USTH
 
-##Team 
+## Team 
 
 Members:
 * Do Duy Huy Hoang
@@ -39,8 +39,8 @@ apt-get install gammu-smsd
 ```bash
 dmesg | grep tty
 ```
-[    7.578478] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0
-[    7.697942] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB1
+[7.578478] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0
+[7.697942] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB1
 
 ## Config gammu
 ```bash
