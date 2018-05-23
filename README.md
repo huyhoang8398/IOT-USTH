@@ -35,18 +35,18 @@ apt-get install python-gammu
 apt-get install gammu-smsd
 ```
 
-# Find port USB device connected to 
+## Find port USB device connected to 
 ```bash
 dmesg | grep tty
 ```
 [    7.578478] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0
 [    7.697942] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB1
 
-# Config gammu
+## Config gammu
 ```bash
 gammu-config
 ```
-# Check connected
+## Check connected
 ```bash
 gammu --identify
 ```
@@ -57,15 +57,14 @@ Firmware             : 11.117.03.01.156
 IMEI                 : 3XX19301XXXXXX3
 SIM IMSI             : 2XXXX923271XXX1
 
-# Test with a text message
+## Test with a text message
 ```bash
 echo "some message" | gammu --sendsms TEXT 07921XXXXXX
 ```
 
-#Run this app
+##Run this app
 ```bash
 git clone https://github.com/huyhoang8398/IOT-USTH
 cd IOT-USTH
 python internship.py
-```# IOT-USTH
-Intership, Python 
+```
