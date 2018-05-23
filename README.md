@@ -20,6 +20,7 @@ Members:
 * Python
 * Bash
 * Gammu
+* An USB Huawei Dcom or GSM module 800l
 
 ## Install Gammu (python-gammu and gammu-smsd can be skipped - depending on requirements)
 Check python is installed on your computer 
@@ -36,6 +37,7 @@ apt-get install gammu-smsd
 ```
 
 ## Find port USB device connected to 
+Connect your DCOM to your Raspberry Pi then:
 ```bash
 dmesg | grep tty
 ```
@@ -62,7 +64,7 @@ SIM IMSI             : 2XXXX923271XXX1
 echo "some message" | gammu --sendsms TEXT 07921XXXXXX
 ```
 
-##Run this app
+## Run this app
 ```bash
 git clone https://github.com/huyhoang8398/IOT-USTH
 cd IOT-USTH
