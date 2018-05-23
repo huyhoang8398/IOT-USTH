@@ -39,7 +39,7 @@ apt-get install gammu-smsd
 ```bash
 dmesg | grep tty
 ```
-[7.578478] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0
+[7.578478] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB0<br />
 [7.697942] usb 1-1.2: GSM modem (1-port) converter now attached to ttyUSB1
 
 ## Config gammu
@@ -50,11 +50,11 @@ gammu-config
 ```bash
 gammu --identify
 ```
-Device               : /dev/ttyUSB0
-Manufacturer         : Huawei
-Model                : E220 (E220)
-Firmware             : 11.117.03.01.156
-IMEI                 : 3XX19301XXXXXX3
+Device               : /dev/ttyUSB0<br />
+Manufacturer         : Huawei<br />
+Model                : E220 (E220)<br />
+Firmware             : 11.117.03.01.156<br />
+IMEI                 : 3XX19301XXXXXX3<br />
 SIM IMSI             : 2XXXX923271XXX1
 
 ## Test with a text message
