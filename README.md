@@ -85,7 +85,9 @@ sudo pip install pyinotify
 ### Watch a directory
 
 Install pyinotify and run this command from a shell:
+```bash
     $ python -m pyinotify -v /my-dir-to-watch
+```
 
 ### Run this script from Pi
 ```bash
