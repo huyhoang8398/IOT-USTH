@@ -69,6 +69,7 @@ echo "some message" | gammu --sendsms TEXT 07921XXXXXX
 ```bash
 git clone https://github.com/huyhoang8398/IOT-USTH
 cd IOT-USTH
+cd GSM
 python GSM.py
 ```
 
@@ -84,5 +85,18 @@ sudo pip install pyinotify
 ### Watch a directory
 
 Install pyinotify and run this command from a shell:
-
     $ python -m pyinotify -v /my-dir-to-watch
+
+### Run this script from Pi
+```bash
+git clone https://github.com/huyhoang8398/IOT-USTH
+cd IOT-USTH
+cd pyinotify
+python inotify.py >> /home/pi/scann/test.txt
+```
+Test the result 
+```bash
+cd /home/pi/scann
+touch test.jpg
+vi test.txt
+```
