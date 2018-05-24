@@ -24,8 +24,10 @@ Members:
 * An USB Huawei Dcom or GSM module 800l
 
 ## Hardware 
-<img align="left" width="100" height="100" src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg">
-<img align="right" width="100" height="100" src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/SIM800L.jpg">
+Python 2.7 code to interface a cheap 2G SIM800L to a cheap Raspberry Pi Zero W v1.1
+
+| <a href=""><img src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg" width="200" /></a> | <a href=""><img src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/SIM800L.jpg" width="200" /></a> |
+|-|-|
 
 ## Install Gammu (python-gammu and gammu-smsd can be skipped - depending on requirements)
 Check python is installed on your computer 
