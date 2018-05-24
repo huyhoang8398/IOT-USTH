@@ -27,9 +27,6 @@ Members:
 <img align="left" width="100" height="100" src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg">
 <img align="right" width="100" height="100" src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/SIM800L.jpg">
 
-
-
-
 ## Install Gammu (python-gammu and gammu-smsd can be skipped - depending on requirements)
 Check python is installed on your computer 
 ```bash
