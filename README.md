@@ -23,6 +23,11 @@ Members:
 * Gammu
 * An USB Huawei Dcom or GSM module 800l
 
+## Hardware 
+![Raspberry Pi](https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg)
+
+
+
 ## Install Gammu (python-gammu and gammu-smsd can be skipped - depending on requirements)
 Check python is installed on your computer 
 ```bash
