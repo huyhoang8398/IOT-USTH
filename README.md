@@ -24,7 +24,7 @@ Members:
 * An USB Huawei Dcom or GSM module 800l
 
 ## Hardware 
-![Raspberry Pi](https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg | width=100)
+![Raspberry Pi](https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg=250x)
 
 
 
