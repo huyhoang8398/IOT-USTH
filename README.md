@@ -24,10 +24,30 @@ Members:
 * An USB Huawei Dcom or GSM module 800l
 
 ## Hardware 
-Python 2.7 code to interface a cheap 2G SIM800L to a cheap Raspberry Pi Zero W v1.1
+Python 2.7 code to interface a cheap 2G SIM800L to a cheap Raspberry Pi 3
 
 | <a href=""><img src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/ban_raspberry_pi_3-850x784.jpg" width="200" /></a> | <a href=""><img src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/SIM800L.jpg" width="200" /></a> |
 |-|-|
+
+## Connections
+
+- Hook up the SIM800 to the Pi Zero with a few wires:
+
+| <img src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/SIM800L.sides.jpg" width="450" /> |  <img src="https://github.com/huyhoang8398/IOT-USTH/blob/master/images/GPIO.png" width="800" />  |
+|-|-|
+
+| SIM800 Pin | Pi Zero Pin |
+| --- | --- |
+| 5V | Pin 2 - 5V |
+| GND | Pin 6 - GND |
+| VDD | Pin 4 - 5V |
+| TX | Pin 10 - GPIO15 - RX |
+| RX | Pin 8 - GPIO14 - TX |
+| GND | Pin 14 - GND |
+| RST | Pin - |
+|-|-|
+
+- Insert your SIM card into the SIM800
 
 ## Install Gammu (python-gammu and gammu-smsd can be skipped - depending on requirements)
 Check python is installed on your computer 
