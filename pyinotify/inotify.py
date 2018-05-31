@@ -3,6 +3,14 @@ from datetime import datetime
 wm = pyinotify.WatchManager()  # Watch Manager
 mask = pyinotify.IN_DELETE | pyinotify.IN_CREATE  # watched events
 
+file = open(“testfile.txt”,”w”) 
+ 
+file.write(“Hello World”) 
+file.write(“This is our new text file”) 
+file.write(“and this is another line.”) 
+file.write(“Why? Because we can.”) 
+ 
+file.close() 
 class EventHandler(pyinotify.ProcessEvent):
     def process_IN_CREATE(self, event):
         print "Creating:", event.pathname,str(datetime.now())
