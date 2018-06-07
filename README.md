@@ -109,7 +109,6 @@ sudo pip install pyinotify
 ```
 
 ### Watch a directory
-
 Install pyinotify and run this command from a shell:
 ```bash
     $ python -m pyinotify -v /my-dir-to-watch
@@ -127,4 +126,19 @@ Test the result
 cd /home/pi/scann
 touch test.jpg
 vi test.txt
+```
+## Auto run at start up with crontab
+```bash
+	sudo apt-get install crontab
+```
+To config crontab use:
+```bash
+	crontab -e
+```
+
+## Added script files
+```bash
+    cd bin
+    chmod +x info.sh
+    ./info.sh
 ```
