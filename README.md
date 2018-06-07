@@ -129,16 +129,16 @@ vi test.txt
 ```
 ## Auto run at start up with crontab
 ```bash
-	sudo apt-get install crontab
+sudo apt-get install crontab
 ```
 To config crontab use:
 ```bash
-	crontab -e
+crontab -e
 ```
 
 ## Added script files
 ```bash
-    cd bin
-    chmod +x info.sh
-    ./info.sh
+cd bin
+chmod +x info.sh
+./info.sh
 ```
