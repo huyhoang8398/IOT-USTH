@@ -16,3 +16,7 @@ message = {
 }
 
 sm.SendSMS(message)
+
+
+
+printf "`date` `echo Images:` `find /Users/huyhoang8398/Pictures | grep .jpg | wc -l` `echo "\n"` "  > /Users/huyhoang8398/test.txt
