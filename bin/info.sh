@@ -2,23 +2,44 @@
 str1="Images JPG:"
 str2="Images PNG:"
 str3="Free storage:"
-myAvai=$(df -h /tmp | tail -1 | awk '{print $4}')
-myIfy=$(find /Users/huyhoang8398/Desktop/scann -mtime -1 -ls)
 
-function GET_OUTPUT()
+#Linux command line 
+avaiMem=$(df -h /tmp | tail -1 | awk '{print $4}')
+notiF=$(find /Users/huyhoang8398/Desktop/scann -mtime -1 -ls)
+infoPng=$(find /Users/huyhoang8398/Pictures | grep .png | wc -l)
+infoJpg=$(find /Users/huyhoang8398/Pictures | grep .jpg | wc -l)
+
+function GET_MEM()
 {
-    echo -e "$str3 $myAvai\n";  
-}
-function OUTPUT_IFY()
-{
-    echo -e "$myIfy\n";
+    echo -e "$str3 $avaiMem\n";  
 }
 
+function GET_WR()
+{
+    echo -e "$notiF\n";
+}
+
+function GET_PNG()
+{
+    echo -e "$str2 $infoPng\n";
+}
+
+function GET_JPG()
+{
+    echo -e "$str1 $infoJpg\n";
+}
+
+# Write date, time > overwrite all files data
 date > /Users/huyhoang8398/test.txt
-printf "`echo $str1` `find /Users/huyhoang8398/Pictures | grep .jpg | wc -l`\n" >> /Users/huyhoang8398/test.txt
-printf "`echo $str2` `find /Users/huyhoang8398/Pictures | grep .png | wc -l`\n" >> /Users/huyhoang8398/test.txt
-echo $(GET_OUTPUT) >> /Users/huyhoang8398/test.txt
-echo $(OUTPUT_IFY) >> /Users/huyhoang8398/test.txt
+
+#printf "`echo $str1` `find /Users/huyhoang8398/Pictures | grep .jpg | wc -l`\n" >> /Users/huyhoang8398/test.txt
+#printf "`echo $str2` `find /Users/huyhoang8398/Pictures | grep .png | wc -l`\n" >> /Users/huyhoang8398/test.txt
+
+# Echo output to textfile without overwrite date time 
+echo $(GET_JPG) >> /Users/huyhoang8398/test.txt
+echo $(GET_PNG) >> /Users/huyhoang8398/test.txt
+echo $(GET_MEM) >> /Users/huyhoang8398/test.txt
+echo $(GET_WR) >> /Users/huyhoang8398/test.txt
 
 
 
