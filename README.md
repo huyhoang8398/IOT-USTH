@@ -57,10 +57,12 @@ python3 --version
 ```
 Use command
 ```bash
-sudo apt-get install gammu 
 sudo apt-get update & apt-get upgrade 
-apt-get install python-gammu
-apt-get install gammu-smsd
+
+sudo apt-get install gammu
+sudo apt-get install python-gammu
+sudo apt-get install gammu-smsd
+sudo apt-get install libgammu-dev
 ```
 
 ## Find port USB device connected to 
@@ -75,9 +77,14 @@ dmesg | grep tty
 ```bash
 gammu-config
 ```
+set port /dev/ttyUSB0
+```bash
+sudo gammu-config
+```
+set port /dev/ttyUSB0
 ## Check connected
 ```bash
-gammu --identify
+sudo gammu --identify
 ```
 Device               : /dev/ttyUSB0<br />
 Manufacturer         : Huawei<br />
