@@ -43,7 +43,6 @@ function GET_DELETED()
     echo -e "$pyInoD\n";
 }
 
-
 # Write date, time > overwrite all files data
 date > /Users/huyhoang8398/test.txt
 
