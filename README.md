@@ -149,3 +149,8 @@ cd bin
 chmod +x info.sh
 ./info.sh
 ```
+## Upgrade 15/06/2018
+```bash
+sudo apt-get install inotifytools
+inotifywait -e modify,delete,create -m -r --timefmt '%F-%T' --format '%:e | %f | %T' <watch-dir> -o <output-file>
+```
