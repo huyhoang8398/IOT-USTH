@@ -1,0 +1,6 @@
+{
+  "name": "ICStation Raspberry Pi Sim800 Password Voice Prompt System",
+  "tagline": "",
+  "body": "# ICStation Raspberry Pi Sim800 Password Voice Prompt System\r\nA simple collection of python scripts to interface with the Sim800\r\n###The python script used in the video was sim800_reply_with_voice\r\nTutorial at:\r\nhttps://youtu.be/kJRuQrrMB-k\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

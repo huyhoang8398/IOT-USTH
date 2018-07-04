@@ -1,0 +1,98 @@
+Sim800 Successfully Detected!
+Found key:  OK  in:  
+OK
+Command: 'AT' completed succesfully
+Found key:  OK  in:  
+
++CSQ: 11,5
+
++CPIN: READY
+
+OK
+Command: 'AT+CSQ;E0;+CMGD=1,2;+CMGF=1;+CMEE=2;+CPIN?;+DDET=1;+CMIC=0,3' completed succesfully
+Setup of Sim800 Completed Successfully
+Found key:  OK  in:  
+
+OK
+Command: 'AT' completed succesfully
+Found key:  OK  in:  
+
++CSQ: 11,5
+
+OK
+Command: 'AT+CSQ' completed succesfully
+[['+CSQ:', ['11', '5']], '', 'OK']
+[11, -91, 'OK']
+Signal is: 11 that is: -91dB and condition OK
+Found key:  OK  in:  
+
+OK
+Command: 'AT' completed succesfully
+Found key:  >  in:  
+
+>
+Found key:  OK  in:   
++CMGS: 107
+
+OK
+
+
++CMTI: "SM",2
+Checking for messages
+Found key:  OK  in:  
+OK
+Command: 'AT' completed succesfully
+Found key:  OK  in:  
+
++CMGL: 1,"REC UNREAD","737373","",≤16/1”)¢‚14:5ì¢≤Z™íjR
+ÕÅÅ≈—Ω≈E^16 14:54
+Prepay Bal: $2.37
+Expires: 1zÇ z17
+
+´kk@your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf
+
++CMGL: 2,"REC UNREAD","7373”ìIbäõ)ä˙ä¢bä¢“™™“Ç¢Z™íjR
+ÕÅÅ≈—Ω≈E^16 14:55
+Prepay Bal: $2.37
+Expires: 17/09/17
+
+Check your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf
+
+OK
+Command: 'AT+CMGL="REC UNREAD",0' completed succesfully
+['+CMGL: 1,"REC UNREAD","737373","",\xb216/1\xd3)\xa2\xe214:5\x93\xa2\xb2Z\xaa\x92\x12jR\n\xcd\x81\x01\x81\xc5\xd1\xbd\xc5E^16 14:54\nPrepay Bal: $2.37\nExpires: 1z\x82\xcaz17\n\n\x14\xabkk@your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf', '+CMGL: 2,"REC UNREAD","7373\xd3\x93\x12I\x12b\x12\x8a\x9b)\x8a\xfa\x8a\xa2b\x8a\xa2\xd2\xaa\xaa\xd2\x82\xa2Z\xaa\x92\x12jR\n\xcd\x81\x01\x81\xc5\xd1\xbd\xc5E^16 14:55\nPrepay Bal: $2.37\nExpires: 17/09/17\n\nCheck your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf', 'OK']
+time data '16/1\xd3)\xa2\xe214:5\x93\xa2\xb2Z\xaa\x92\x12jR\n\xcd\x81\x01\x81\xc5\xd1\xbd\xc5E^16 14:54\nPrepay Bal: $2.37\nExpires: 1z\x82\xcaz17\n\n\x14\xabkk@your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf' does not match format '%y/%m/%d,%H:%M:%S'
+Attemping Re-read
+Found key:  OK  in:  
+
+OK
+Command: 'AT' completed succesfully
+Found key:  OK  in:  
+
++CMGL: 1,"REC READ","737373","","16/11/14,14:54:46+52"
+As @ 14/11/16 14:54
+Prepay Bal: $2.37
+Expires: 17/09/17
+
+Check your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf
+
++CMGL: 2,"REC READ","737373","","16/11/14,14:55:04+52"
+As @ 14/11/16 14:55
+Prepay Bal: $2.37
+Expires: 17/09/17
+
+Check your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf
+
+OK
+Command: 'AT+CMGL="REC READ",0' completed succesfully
+['+CMGL: 1,"REC READ","737373","","16/11/14,14:54:46+52"\r\nAs @ 14/11/16 14:54\nPrepay Bal: $2.37\nExpires: 17/09/17\n\nCheck your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf', '+CMGL: 2,"REC READ","737373","","16/11/14,14:55:04+52"\r\nAs @ 14/11/16 14:55\nPrepay Bal: $2.37\nExpires: 17/09/17\n\nCheck your balance, data usage & more in the My Vodafone App vodafone.co.nz/myvf', 'OK']
+Found key:  OK  in:  
+
+OK
+Command: 'AT' completed succesfully
+Found key:  OK  in:  
+
+OK
+Command: 'AT+CMGD=1,2' completed succesfully
+
+ˇ

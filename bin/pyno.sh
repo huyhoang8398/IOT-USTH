@@ -1,5 +1,4 @@
 #!/bin/bash
-http://4share.vn/f/487c7d7b7c7f797c/
 
 pyInoC=$(egrep '(REMOVING|DELETED)' ~/IOT-USTH/test.txt)
 

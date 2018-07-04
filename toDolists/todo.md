@@ -6,4 +6,6 @@
 * Read Gammu-smsd daemon
 * Make Ping-pong gammu-smsd
 * Use crontab 
-
+* WiringPi Library
+* http://wiringpi.com/
+* http://wiringpi.com/download-and-install/
