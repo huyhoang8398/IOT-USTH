@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ guava-18.0.jar jfreesane-0.95.jar
+Class-Path: .
+Rsrc-Main-Class: Scannn
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+
