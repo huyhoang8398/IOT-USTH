@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pyInoC=$(egrep '(REMOVING|DELETED)' ~/IOT-USTH/test.txt)
+pyInoC=$(egrep '(REMOVING|DELETED)' ~/IOT-USTH/log2.txt)
 
 function GET_CD()
 {

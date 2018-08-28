@@ -20,6 +20,10 @@ from time import sleep
 C_PWpin = 27		# chan C_PW dieu khien nguon cap cho RPI Sim808 Shield
 PWKpin  = 17 		# chan PWK : bat/tat RPI Sim808 Shield
 
+data = ''
+with open('home/pi/scann/test.txt', 'r') as myfile
+    data = myfile.read()
+
 # setup serial 
 ser = serial.Serial(
 	port = '/dev/ttyAMA0',
@@ -81,9 +85,9 @@ def GSM_MakeCall():
 #********************************************************************
 def GSM_MakeSMS():
 	print "Nhan tin...\n"
-	ser.write(b'AT+CMGS=\"012345678\"\r\n') 	# nhan tin toi sdt 012345678
+	ser.write(b'AT+CMGS=\"0918328099\"\r\n') 	# nhan tin toi sdt 012345678
 	time.sleep(5)
-	ser.write(b'Xin chao ban!!!')
+	ser.write(data)
 	ser.write(b'\x1A')		# Gui Ctrl Z hay 26, 0x1A de ket thuc noi dung tin nhan va gui di
 	time.sleep(5)
 	return
@@ -95,7 +99,7 @@ try:
 	print "Bat nguon cho module Sim808...\n"
 	GSM_Power()			# Bat nguon cho module 
 	GSM_Init() 			# Khoi dong module 
-	GSM_MakeCall() 		# Tao cuoc goi
+	#GSM_MakeCall() 		# Tao cuoc goi
 	GSM_MakeSMS() 		# Tao tin nhan 
 	print "Tat nguon cho module Sim808!\n"
 	GSM_Power()			# Tat nguon cho module
